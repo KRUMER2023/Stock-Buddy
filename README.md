@@ -17,11 +17,23 @@ To Run The Project Plz 1st read "HOW TO SETUP.txt" File For Complete Guide
 
 ## 🖼️ **Screenshots**
 ![Menu](Screenshots/Menu.png)
+
+
 ![Registration](Screenshots/Registration.png)
+
+
 ![Verification](Screenshots/Verification.png)
+
+
 ![Login](Screenshots/Login.png)
+
+
 ![UserMenu](Screenshots/UserMenu.png)
+
+
 ![Live Data](Screenshots/LiveChart.png)
+
+
 ![Transactions](Screenshots/Transaction.png)
 
 ## 💻 **Technologies Used**
