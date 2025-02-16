@@ -1,0 +1,8 @@
+yfinance
+pandas
+mysql-connector-python
+streamlit
+plotly
+ta
+prettytable
+colorama

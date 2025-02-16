@@ -1,0 +1,87 @@
+---------------	
+   1st Step:
+---------------
+
+Setup MySQL DATABASE BY RUNNING FOLLOWING QUERY:
+
+
+CREATE DATABASE `Again2` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+use `Again2`;
+CREATE TABLE `userdata` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `fname` varchar(50) NOT NULL,
+  `ntag` varchar(45) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `mobile` bigint NOT NULL,
+  `dob` date NOT NULL,
+  `password` varchar(100) NOT NULL,
+  `ekyc` int NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `ntag_UNIQUE` (`ntag`)
+) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+CREATE TABLE `wallet` (
+  `Id` int NOT NULL,
+  `Balance` decimal(18,2) NOT NULL,
+  PRIMARY KEY (`Id`),
+  UNIQUE KEY `Id_UNIQUE` (`Id`),
+  CONSTRAINT `Id` FOREIGN KEY (`Id`) REFERENCES `userdata` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+CREATE TABLE `transaction` (
+  `TransactionId` int NOT NULL AUTO_INCREMENT,
+  `id` int NOT NULL,
+  `Date` varchar(45) NOT NULL,
+  `Time` varchar(45) NOT NULL,
+  `TransactionType` varchar(45) NOT NULL,
+  `Total Amount` decimal(18,2) NOT NULL,
+  `BalanceBefore` decimal(18,2) DEFAULT NULL,
+  `BalanceAfter` decimal(18,2) DEFAULT NULL,
+  `Description` varchar(45) DEFAULT NULL,
+  `Symbol` varchar(45) DEFAULT NULL,
+  `Quantity` int DEFAULT NULL,
+  `Price Per Share` decimal(18,2) DEFAULT NULL,
+  `Type` int NOT NULL,
+  PRIMARY KEY (`TransactionId`),
+  UNIQUE KEY `TransactionId_UNIQUE` (`TransactionId`),
+  KEY `User id_idx` (`id`),
+  CONSTRAINT `User id` FOREIGN KEY (`id`) REFERENCES `userdata` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=15621 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+---------------
+   2nd Step:
+---------------
+
+Install All required Libraries using following any command and if Using Virtaul Env. Ensure To Install ON that ONLY:
+
+pip install yfinance pandas mysql-connector-python streamlit plotly ta prettytable colorama
+
+OR 
+
+pip install -r requirements.txt
+
+---------------
+   3rd Step:
+---------------
+
+--Change Data Base Connection Configuration:
+--In "database.py" file change the connection object as per your configuration of MYSQL:
+
+connection = mysql.connector.connect(
+        host='localhost',  
+        database='testing', 
+        user='root', #Change To Your Data base USER NAME
+        password='Kru@123'  #Change To Your Database server Password
+    )
+
+---------------
+   4th Step:
+---------------
+
+
+All Things Are Ready Now Run 'main.py'  file.......
+
+
+
+
+
+
+
