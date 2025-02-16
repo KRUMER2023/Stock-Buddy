@@ -41,7 +41,7 @@ The **Stock Buddy** is a web-based + Console application that allows users to si
 - Special thanks to JEET KUMAR JHA Sir, A Faculty for Python Language Subject form ByteXl who assign us this project and My team member ADITYA MISHRA, who helped me in this projecct.
 - 
 ## 📧 **Contact**
-For any questions or feedback, please contact [your-email@example.com](mailto:[parmarkrunal1805@example.com).
+For any questions or feedback, please contact [parmarkrunal1805@example.com](mailto:[parmarkrunal1805@example.com).
 
 ---
 
