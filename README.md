@@ -12,15 +12,8 @@ The **Stock Buddy** is a web-based + Console application that allows users to si
 - **💹 Stock Transactions:** Users can buy and sell stocks using the current price and stock symbol.
 
 ## 🛠️ **Installation**
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/stock-market-simulator.git
-   cd stock-market-simulator
-   ```
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+To Run The Project Plz 1st read "HOW TO SETUP.txt" File For Complete Guide 
+   
 
 ## 🖼️ **Screenshots**
 ![Registration](path/to/registration_screenshot.png)
