@@ -16,6 +16,7 @@ To Run The Project Plz 1st read "HOW TO SETUP.txt" File For Complete Guide
    
 
 ## 🖼️ **Screenshots**
+![Menu](Screenshots/Menu.png)
 ![Registration](Login.jpg)
 ![Login](path/to/login_screenshot.png)
 ![Live Data](path/to/livedata_screenshot.png)
