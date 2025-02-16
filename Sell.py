@@ -48,7 +48,7 @@ def sell(id):
     printMessage(f"\tThe Selling Amount : {total}\n\tYour Current Balance : {balance}")
     time.sleep(1)
     
-    if userChoice("Confirm To Buy:")==False:
+    if userChoice("Confirm To Sell:")==False:
         return
     else:
         upBalance=balance+total

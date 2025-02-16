@@ -57,7 +57,7 @@ def buy(id):
         return
     else:
         upBalance=balance-total
-        print("after: ",upBalance)
+        # print("after: ",upBalance)
         wallet(id,update=True,amount=upBalance)
         RecordTransaction(id,f"{ticker} Stock Buy",1,total,balance,upBalance,f"Buying {qt} Stocks of {ticker}",ticker,qt,price)
         printMessage("Payment Successful....")
