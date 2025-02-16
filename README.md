@@ -1,11 +1,7 @@
-Sure! Here's an enhanced version of your README.md file, designed to be visually appealing with creative fonts and symbols:
-
----
-
-# 🌟 **Stock Market Simulator** 🌟
+# 🌟 **Stock Buddy** 🌟
 
 ## 📖 **Overview**
-The **Stock Market Simulator** is a web-based application that allows users to simulate stock market activities such as registration, login, eKYC verification, wallet creation, and transactions like buying and selling stocks. The application provides live stock market data and visualizations using the Streamlit library.
+The **Stock Buddy** is a web-based + Console application that allows users to simulate stock market activities such as registration, login, eKYC verification, wallet creation, and transactions like buying and selling stocks. The application provides live stock market data and visualizations using the Streamlit library.
 
 ## ✨ **Features**
 - **🔑 User Registration and Login:** Users can register and log in with email OTP verification.
@@ -26,13 +22,6 @@ The **Stock Market Simulator** is a web-based application that allows users to s
    pip install -r requirements.txt
    ```
 
-## 🚀 **Usage**
-1. Start the application:
-   ```bash
-   streamlit run app.py
-   ```
-2. Open your web browser and navigate to `http://localhost:8501` to access the application.
-
 ## 🖼️ **Screenshots**
 ![Registration](path/to/registration_screenshot.png)
 ![Login](path/to/login_screenshot.png)
@@ -48,17 +37,11 @@ The **Stock Market Simulator** is a web-based application that allows users to s
 - **OTP Verification:** SMTP
 - **eKYC Verification:** Aadhaar API
 
-## 🤝 **Contributing**
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-## 📜 **License**
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## 🙏 **Acknowledgements**
-- Special thanks to the developers and contributors of the libraries and APIs used in this project.
-
+- Special thanks to JEET KUMAR JHA Sir, A Faculty for Python Language Subject form ByteXl who assign us this project and My team member ADITYA MISHRA, who helped me in this projecct.
+- 
 ## 📧 **Contact**
-For any questions or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
+For any questions or feedback, please contact [your-email@example.com](mailto:[parmarkrunal1805@example.com).
 
 ---
 
