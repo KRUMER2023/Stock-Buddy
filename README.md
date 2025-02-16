@@ -30,12 +30,10 @@ The **Stock Buddy** is a web-based + Console application that allows users to si
 ![Transactions](path/to/transactions_screenshot.png)
 
 ## 💻 **Technologies Used**
-- **Backend:** Python, Flask
-- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Python
 - **Database:** MySQL
 - **Data Visualization:** Streamlit
 - **OTP Verification:** SMTP
-- **eKYC Verification:** Aadhaar API
 
 ## 🙏 **Acknowledgements**
 - Special thanks to JEET KUMAR JHA Sir, A Faculty for Python Language Subject form ByteXl who assign us this project and My team member ADITYA MISHRA, who helped me in this projecct.
